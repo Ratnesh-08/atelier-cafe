@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lux-bg: #F8F5F1;
+  --color-lux-text: #1B1B1B;
+  --color-lux-coffee: #5A3E2B;
+  --color-lux-gold: #B08A57;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
+  
+  --animate-fade-in-up: fade-in-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-text-reveal: text-reveal 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-draw-line: draw-line 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes text-reveal {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw-line {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Global resets for luxury styling */
+html {
+  scroll-behavior: auto; /* Required for Lenis smooth scroll */
+  background-color: #F8F5F1;
+  color: #1B1B1B;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.55;
+  background-color: #F8F5F1;
+  color: #1B1B1B;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  color: #1B1B1B;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F5F1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B08A57;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5A3E2B;
+}
+
+/* Utility to prevent scroll jump */
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Text Masking / Reveal effect classes */
+.reveal-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Photo View Lightbox Overrides */
+.PhotoView-Slider__Backdrop {
+  background-color: rgba(27, 27, 27, 0.98) !important;
+}
+
+.PhotoView-Slider__Arrow {
+  background: none !important;
+  color: #F8F5F1 !important;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.PhotoView-Slider__Arrow:hover {
+  opacity: 1;
+}
+
+/* Embla Carousel styles */
+.embla {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+/* Editorial line separator styling */
+.editorial-line {
+  height: 1px;
+  background-color: rgba(90, 62, 43, 0.15);
+  width: 100%;
+}
+
+/* Accessible focus styles for keyboard navigation */
+:focus-visible {
+  outline: 2px solid #5A3E2B;
+  outline-offset: 2px;
+}
+

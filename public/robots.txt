@@ -1,0 +1,9 @@
+# Robots.txt for L'Atelier Cafe
+User-agent: *
+Allow: /
+
+# Disallow build and private assets if any
+Disallow: /assets/*.map
+
+# Sitemap index (replace with production domain upon deployment)
+# Sitemap: https://example.com/sitemap.xml
