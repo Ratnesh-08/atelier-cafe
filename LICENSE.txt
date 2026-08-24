@@ -1,0 +1,100 @@
+L'ATELIER CAFÉ — COMMERCIAL LICENSE
+
+Copyright © 2026 L'Atelier Café
+All rights reserved.
+
+This license governs the use of the L'Atelier Café website template,
+including its source code, design, documentation, and original template
+materials.
+
+By purchasing or using this template, you agree to the following terms.
+
+1. PERMITTED USE
+
+You may:
+
+- Use the template for personal or commercial websites.
+- Modify the source code.
+- Change text, images, colors, fonts, layouts, and other content.
+- Use the template to create a website for yourself or a client.
+- Deploy the finished website publicly.
+
+2. PROHIBITED USE
+
+You may not:
+
+- Resell the template itself.
+- Redistribute the original source files.
+- Upload or publish the template for free download.
+- Upload the template to another marketplace.
+- Share the template source files publicly.
+- Give the original template files to unlicensed users.
+- Create and sell another website template, UI kit, theme, or
+  digital product substantially based on this template.
+- Claim the original template source code or design as your own.
+
+3. CLIENT PROJECTS
+
+You may use the template to create websites for clients.
+
+The finished website may be delivered to the client as part of the
+completed project.
+
+However, the original template source files may not be redistributed
+to the client unless the client has obtained an appropriate license.
+
+4. MODIFICATIONS
+
+You may modify the template for permitted personal or client projects.
+
+Modified versions remain subject to this license when they contain
+substantial portions of the original template.
+
+5. THIRD-PARTY MATERIALS
+
+Third-party libraries, fonts, icons, images, and other external
+materials included with or referenced by the template may be subject
+to separate licenses.
+
+See CREDITS.md for information about third-party materials.
+
+6. OWNERSHIP
+
+This license grants usage rights only.
+
+It does not transfer ownership or copyright of the original template,
+source code, design, documentation, or other original materials.
+
+7. REFUNDS
+
+Refunds are governed by the refund policy of the marketplace through
+which the template was purchased.
+
+8. NO WARRANTY
+
+The template is provided "AS IS" without warranties of any kind.
+
+The author does not guarantee compatibility with every hosting
+provider, browser, operating system, third-party service, or future
+version of its dependencies.
+
+9. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law, the author shall
+not be liable for damages arising from the use of this template.
+
+10. LICENSE VIOLATIONS
+
+Unauthorized redistribution, resale, or public sharing of the
+template may result in termination of the license and may constitute
+copyright infringement.
+
+11. CONTACT
+
+For licensing questions, contact the seller through the marketplace
+where the template was purchased.
+
+
+L'Atelier Café
+Commercial Website Template
+© 2026 All rights reserved.
